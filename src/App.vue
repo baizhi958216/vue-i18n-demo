@@ -1,5 +1,12 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+import { onMounted } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+const { t, locale } = useI18n() 
+
+onMounted(()=>{
+  locale.value = 'en'
+})
 </script>
 
 <template>
@@ -11,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld :msg="$t('message.init')" />
+  <HelloWorld :msg="t('message.init')" />
 </template>
 
 <style scoped>

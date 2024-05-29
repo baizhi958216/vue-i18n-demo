@@ -9,5 +9,6 @@
     "install": "Install",
     "volarinstall": "in your IDE for a better DX",
     "learnmore": "Click on the Vite and Vue logos to learn more"
-  }
+  },
+  "switchlang": "switch language"
 }

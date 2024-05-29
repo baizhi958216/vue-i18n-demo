@@ -9,5 +9,6 @@
     "install": "安装",
     "volarinstall": "在你的代码编辑工具以获得更好的开发体验",
     "learnmore": "点击Vite和Vue的徽标了解更多信息"
-  }
+  },
+  "switchlang": "切换语言"
 }

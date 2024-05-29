@@ -3,6 +3,7 @@ import ZH from "./locales/zh.json";
 import EN from "./locales/en.json";
 
 export const i18n = createI18n({
+  legacy: false,
   locale: navigator.language,
   fallbackLocale: "en",
   messages: {
