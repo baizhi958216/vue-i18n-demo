@@ -1,5 +1,13 @@
 {
   "message": {
-    "init": "Vite + Vue"
+    "init": "Vite + Vue",
+    "count": "count is",
+    "edit": "Edit",
+    "testhmr": "to test HMR",
+    "checkout": "Check out",
+    "officialstarter": "the official Vue + Vite starter",
+    "install": "Install",
+    "volarinstall": "in your IDE for a better DX",
+    "learnmore": "Click on the Vite and Vue logos to learn more"
   }
 }
